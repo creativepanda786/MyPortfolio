@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghana Dodda — Data & Software Engineer</title>
+  <meta name="description" content="Software Engineer with 7+ years building production-grade data platforms, GenAI pipelines, and scalable cloud infrastructure." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ========== NAV ========== -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo"><span class="logo-text">MD</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#skills" data-nav>Skills</a></li>
+        <li><a href="#projects" data-nav>Projects</a></li>
+        <li><a href="#experience" data-nav>Experience</a></li>
+        <li><a href="#contact" data-nav>Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" data-magnetic>Hire Me</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="mobile-cta">Hire Me</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-noise"></div>
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        <span>Available for new opportunities · Austin, TX</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="hero-line">Meghana</span>
+        <span class="hero-line hero-line-italic">Dodda</span>
+      </h1>
+      <p class="hero-sub">
+        Data &amp; Software Engineer · 7+ years building production-grade<br />data platforms, GenAI pipelines &amp; cloud infrastructure.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" data-magnetic>
+          <span>View Work</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost" data-magnetic>Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-count="7">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="3">0</span><span class="stat-suffix">B+</span>
+          <span class="stat-label">Events/day</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="99">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">Uptime SLA</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="6">0</span>
+          <span class="stat-label">Companies</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <div class="marquee-inner" id="marqueeInner">
+        <span>Python</span><span class="dot">·</span>
+        <span>PySpark</span><span class="dot">·</span>
+        <span>Scala</span><span class="dot">·</span>
+        <span>dbt</span><span class="dot">·</span>
+        <span>Databricks</span><span class="dot">·</span>
+        <span>Delta Lake</span><span class="dot">·</span>
+        <span>Apache Kafka</span><span class="dot">·</span>
+        <span>Apache Airflow</span><span class="dot">·</span>
+        <span>Snowflake</span><span class="dot">·</span>
+        <span>AWS</span><span class="dot">·</span>
+        <span>Terraform</span><span class="dot">·</span>
+        <span>Kubernetes</span><span class="dot">·</span>
+        <span>LangChain</span><span class="dot">·</span>
+        <span>RAG Pipelines</span><span class="dot">·</span>
+        <span>Redshift</span><span class="dot">·</span>
+        <span>BigQuery</span><span class="dot">·</span>
+        <span>Great Expectations</span><span class="dot">·</span>
+        <span>Datadog</span><span class="dot">·</span>
+        <span>Python</span><span class="dot">·</span>
+        <span>PySpark</span><span class="dot">·</span>
+        <span>Scala</span><span class="dot">·</span>
+        <span>dbt</span><span class="dot">·</span>
+        <span>Databricks</span><span class="dot">·</span>
+        <span>Delta Lake</span><span class="dot">·</span>
+        <span>Apache Kafka</span><span class="dot">·</span>
+        <span>Apache Airflow</span><span class="dot">·</span>
+        <span>Snowflake</span><span class="dot">·</span>
+        <span>AWS</span><span class="dot">·</span>
+        <span>Terraform</span><span class="dot">·</span>
+        <span>Kubernetes</span><span class="dot">·</span>
+        <span>LangChain</span><span class="dot">·</span>
+        <span>RAG Pipelines</span><span class="dot">·</span>
+        <span>Redshift</span><span class="dot">·</span>
+        <span>BigQuery</span><span class="dot">·</span>
+        <span>Great Expectations</span><span class="dot">·</span>
+        <span>Datadog</span><span class="dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <p class="eyebrow-label" data-reveal>About Me</p>
+          <h2 class="section-title" data-reveal data-delay="0.1">
+            Data platforms<br />that power <em>real</em><br />decisions.
+          </h2>
+          <div class="about-body" data-reveal data-delay="0.2">
+            <p>I'm a Software Engineer specialising in modern data platforms and AI-powered pipelines. With 7+ years across aerospace, healthcare, financial services, and telecom, I design and ship production-grade solutions using Python, PySpark, Databricks, Delta Lake, and dbt.</p>
+            <p>I've built GenAI and RAG pipelines — from embeddings and vector databases to LangChain retrieval workflows — and I bring a strong DataOps mindset: pipeline monitoring with Datadog &amp; Prometheus, data quality with Great Expectations, IaC with Terraform, and full CI/CD automation for data workflows.</p>
+          </div>
+          <div class="about-tags" data-reveal data-delay="0.3">
+            <span class="tag">Data Engineering</span>
+            <span class="tag">GenAI / RAG</span>
+            <span class="tag">Cloud (AWS · GCP · Azure)</span>
+            <span class="tag">DataOps</span>
+            <span class="tag">Streaming Systems</span>
+            <span class="tag">MLOps</span>
+          </div>
+        </div>
+        <div class="about-right" data-reveal data-delay="0.2">
+          <div class="about-card">
+            <div class="about-card-glow"></div>
+            <div class="about-avatar">MD</div>
+            <div class="about-card-name">Meghana Dodda</div>
+            <div class="about-card-role">Data &amp; Software Engineer</div>
+            <div class="about-card-divider"></div>
+            <ul class="about-card-list">
+              <li><span class="card-icon">📍</span> Austin, TX · Open to Relocation</li>
+              <li><span class="card-icon">📞</span> 857-381-9821</li>
+              <li><span class="card-icon">✉️</span> meghana.dodda50@outlook.com</li>
+              <li><span class="card-icon">🎓</span> M.S. Data Analytics, Clark University</li>
+              <li><span class="card-icon">💼</span> Actively Seeking</li>
+            </ul>
+            <div class="about-card-status">
+              <span class="status-dot"></span> Available now
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <p class="eyebrow-label centered" data-reveal>Expertise</p>
+      <h2 class="section-title centered" data-reveal data-delay="0.1">Built for<br /><em>every layer of data.</em></h2>
+      <p class="section-sub" data-reveal data-delay="0.2">From raw ingestion to GenAI retrieval — full ownership of the modern data stack.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card skill-card--large" data-reveal data-delay="0.1">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">🔁</div>
+          <h3>Data Platforms &amp; Pipelines</h3>
+          <p>Designing petabyte-scale lakehouses with ACID-compliant pipelines, incremental dbt models, Auto Loader ingestion, and SCD upsert logic for batch and streaming workloads.</p>
+          <div class="skill-pills">
+            <span>Databricks</span><span>Delta Lake</span><span>dbt</span><span>PySpark</span><span>Scala</span><span>AWS Glue</span><span>EMR</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal data-delay="0.15">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">🤖</div>
+          <h3>GenAI &amp; RAG</h3>
+          <p>Production RAG pipelines with embeddings, vector databases, and LangChain retrieval orchestration for AI-assisted decision support.</p>
+          <div class="skill-pills">
+            <span>LangChain</span><span>LlamaIndex</span><span>OpenAI API</span><span>FAISS</span><span>Pinecone</span><span>ChromaDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal data-delay="0.2">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">⚡</div>
+          <h3>Streaming Systems</h3>
+          <p>High-velocity event pipelines with exactly-once semantics, schema registry, and sub-second latency into Delta Lake.</p>
+          <div class="skill-pills">
+            <span>Apache Kafka</span><span>AWS Kinesis</span><span>Flink</span><span>Spark Streaming</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal data-delay="0.25">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud &amp; Infrastructure</h3>
+          <p>Multi-cloud IaC with Terraform, GitOps workflows, and managed Kubernetes for data services.</p>
+          <div class="skill-pills">
+            <span>AWS</span><span>GCP</span><span>Azure</span><span>Terraform</span><span>Kubernetes</span><span>Docker</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal data-delay="0.3">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">🏗️</div>
+          <h3>DataOps &amp; Observability</h3>
+          <p>Pipeline reliability through automated quality gates, SLA dashboards, and self-healing runbooks.</p>
+          <div class="skill-pills">
+            <span>Great Expectations</span><span>Airflow</span><span>Datadog</span><span>Prometheus</span><span>Grafana</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-reveal data-delay="0.35">
+          <div class="skill-card-bg"></div>
+          <div class="skill-icon">📦</div>
+          <h3>Data Warehouses</h3>
+          <p>Query optimisation, execution plan analysis, and warehouse design across leading cloud platforms.</p>
+          <div class="skill-pills">
+            <span>Snowflake</span><span>Redshift</span><span>BigQuery</span><span>Synapse</span><span>Hive</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <p class="eyebrow-label" data-reveal>Selected Work</p>
+      <h2 class="section-title" data-reveal data-delay="0.1">Impact that<br /><em>speaks in numbers.</em></h2>
+
+      <div class="projects-list">
+
+        <article class="project-item" data-reveal>
+          <div class="project-num">01</div>
+          <div class="project-body">
+            <div class="project-header">
+              <div>
+                <span class="project-badge">Featured · Healthcare · GenAI</span>
+                <h3>Clinical Data Platform &amp; RAG Pipeline</h3>
+              </div>
+              <span class="project-year">2025 · Prowise Solutions</span>
+            </div>
+            <p>Architected a Databricks-based data platform processing 3B+ daily clinical events with Delta Lake ACID pipelines and Auto Loader. Built a production RAG system using OpenAI embeddings + FAISS for AI-assisted clinical decision support, reducing hallucination rate by 78%. Replaced 6-hour batch cycles with sub-minute data availability.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">3B+</span><span class="metric-lab">Events / day</span></div>
+              <div class="metric"><span class="metric-val">45%</span><span class="metric-lab">Cost Reduction</span></div>
+              <div class="metric"><span class="metric-val">78%</span><span class="metric-lab">Hallucination ↓</span></div>
+              <div class="metric"><span class="metric-val">15 min</span><span class="metric-lab">Time-to-Insight</span></div>
+            </div>
+            <div class="project-footer">
+              <div class="project-pills">
+                <span>Databricks</span><span>Delta Lake</span><span>dbt</span><span>Kafka</span><span>LangChain</span><span>FAISS</span><span>Airflow</span><span>AWS</span><span>Terraform</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item" data-reveal>
+          <div class="project-num">02</div>
+          <div class="project-body">
+            <div class="project-header">
+              <div>
+                <span class="project-badge">Streaming · Telecom · Fortune 500</span>
+                <h3>Real-Time Telecom Data Platform</h3>
+              </div>
+              <span class="project-year">2024 · Verizon</span>
+            </div>
+            <p>Built large-scale PySpark + dbt pipelines on Databricks processing 500M+ daily operational records. Designed Kafka + Kinesis streaming ingestion with sub-500ms latency and SCD Type 1 &amp; 2 upsert logic. Reduced infrastructure costs 30% and cut time-to-insight from 4 hours to under 20 minutes.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">500M+</span><span class="metric-lab">Records / day</span></div>
+              <div class="metric"><span class="metric-val">500ms</span><span class="metric-lab">E2E Latency</span></div>
+              <div class="metric"><span class="metric-val">30%</span><span class="metric-lab">Cost Saved</span></div>
+            </div>
+            <div class="project-footer">
+              <div class="project-pills">
+                <span>PySpark</span><span>dbt</span><span>Kafka</span><span>Kinesis</span><span>Delta Lake</span><span>Great Expectations</span><span>Terraform</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item" data-reveal>
+          <div class="project-num">03</div>
+          <div class="project-body">
+            <div class="project-header">
+              <div>
+                <span class="project-badge">Data Lakehouse · Healthcare · Global</span>
+                <h3>Petabyte-Scale Healthcare Lakehouse</h3>
+              </div>
+              <span class="project-year">2022 · Siemens Healthineers</span>
+            </div>
+            <p>Designed a petabyte-scale lakehouse on AWS (S3, Redshift, EMR, Glue) serving 200K+ patients. Built Kafka streaming pipelines from 200K+ monitoring devices, eliminating 3 classes of duplicate-processing failures and improving data reliability from 93% to 99.5%. Mentored 3 engineers on PySpark and distributed systems.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">200K+</span><span class="metric-lab">Patients</span></div>
+              <div class="metric"><span class="metric-val">99.5%</span><span class="metric-lab">Data Reliability</span></div>
+              <div class="metric"><span class="metric-val">65%</span><span class="metric-lab">Defects ↓</span></div>
+            </div>
+            <div class="project-footer">
+              <div class="project-pills">
+                <span>PySpark</span><span>Kafka</span><span>AWS EMR</span><span>Redshift</span><span>dbt</span><span>SageMaker</span><span>FAISS</span><span>Prometheus</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item" data-reveal>
+          <div class="project-num">04</div>
+          <div class="project-body">
+            <div class="project-header">
+              <div>
+                <span class="project-badge">Data Engineering · Financial Services</span>
+                <h3>Financial Data Warehouse &amp; ETL Platform</h3>
+              </div>
+              <span class="project-year">2021 · DATEV eG</span>
+            </div>
+            <p>Built Python + PySpark ELT pipelines on AWS for a global financial services client, achieving 100% record-level accuracy and 99.8% pipeline availability over 12 months. Replaced 4-hour batch cycles with near-real-time financial data via Kinesis + Snowflake. Query optimisation improved warehouse performance by 55%.</p>
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">100%</span><span class="metric-lab">Record Accuracy</span></div>
+              <div class="metric"><span class="metric-val">99.8%</span><span class="metric-lab">Availability</span></div>
+              <div class="metric"><span class="metric-val">55%</span><span class="metric-lab">Query Speed ↑</span></div>
+            </div>
+            <div class="project-footer">
+              <div class="project-pills">
+                <span>Python</span><span>PySpark</span><span>dbt</span><span>Snowflake</span><span>Redshift</span><span>Airflow</span><span>Great Expectations</span><span>Datadog</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-item" data-reveal>
+          <div class="project-num">05</div>
+          <div class="project-body">
+            <div class="project-header">
+              <div>
+                <span class="project-badge">DataOps · Azure · Cloud Infrastructure</span>
+                <h3>Azure Data Platform &amp; Pipeline Automation</h3>
+              </div>
+              <span class="project-year">2020 · Prosa IT GmbH</span>
+            </div>
+            <p>Built Python + PySpark ingestion pipelines on Azure processing 100M+ monthly events. Implemented self-healing runbooks with Prometheus + Grafana, automating resolution of 65% of recurring incidents and improving mean time-to-recovery by 70%. Reduced environment setup from 2 days to under 3 hours with Terraform + Helm.</p>
+            <div class="project-footer">
+              <div class="project-pills">
+                <span>Python</span><span>PySpark</span><span>Azure Synapse</span><span>Snowflake</span><span>dbt</span><span>Prometheus</span><span>Grafana</span><span>Terraform</span><span>Helm</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <p class="eyebrow-label centered" data-reveal>Career</p>
+      <h2 class="section-title centered" data-reveal data-delay="0.1">A career built<br /><em>on impact.</em></h2>
+
+      <div class="timeline">
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">Mar 2025 — Present</div>
+            <div class="tl-company">Prowise Solutions</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Software Engineer · Medical Solutions Client · Austin, TX</h3>
+            <ul class="tl-bullets">
+              <li>Databricks Delta Lake platform processing 3B+ daily clinical events; reduced infra costs 45% and time-to-insight from 6h to 15 min</li>
+              <li>Built production RAG pipeline (OpenAI + FAISS + LangChain) reducing hallucination rate 78% for clinical decision support</li>
+              <li>Architected Kafka + Kinesis streaming replacing 4-hour batch cycles with sub-minute availability across 3 downstream consumers</li>
+              <li>Achieved 99.9% pipeline uptime with Great Expectations gates, Datadog dashboards, and GitHub Actions CI/CD</li>
+              <li>Reduced ML experiment-to-production cycle 40%, enabling 3 production model deployments on SageMaker + Databricks</li>
+            </ul>
+            <div class="tl-pills">
+              <span>Databricks</span><span>Delta Lake</span><span>dbt</span><span>Kafka</span><span>LangChain</span><span>FAISS</span><span>Airflow</span><span>Terraform</span><span>AWS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">Oct 2024 — Feb 2025</div>
+            <div class="tl-company">Verizon</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Data Engineer II · Tampa, FL</h3>
+            <ul class="tl-bullets">
+              <li>PySpark + dbt pipelines on Databricks processing 500M+ daily records with SCD Type 1 &amp; 2 upsert logic; improved freshness from 4h to 20 min</li>
+              <li>Streaming pipelines with Kafka + Kinesis (sub-500ms latency, exactly-once delivery) serving 3 analytics and ML systems</li>
+              <li>DataOps: Great Expectations gates catching 90%+ quality issues at ingestion before reaching client reporting</li>
+              <li>IaC with Terraform + CloudFormation reduced environment provisioning from 2 days to 3 hours and eliminated config drift</li>
+              <li>Enabled self-service analytics for 8 business teams, reducing ad-hoc data requests by 50%</li>
+            </ul>
+            <div class="tl-pills">
+              <span>PySpark</span><span>dbt</span><span>Databricks</span><span>Kafka</span><span>Kinesis</span><span>Great Expectations</span><span>Terraform</span><span>Redshift</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">Jan 2022 — Dec 2022</div>
+            <div class="tl-company">Siemens Healthineers</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Software Engineer · Nuremberg, Germany</h3>
+            <ul class="tl-bullets">
+              <li>Petabyte-scale lakehouse on AWS serving 200K+ patients; cut analytical query time from 6h to 15 min</li>
+              <li>Kafka streaming from 200K+ devices — improved data reliability from 93% to 99.5%, eliminating 3 classes of duplicate failures</li>
+              <li>GenAI-adjacent ML feature pipelines (embeddings + FAISS) achieving 99.9% feature freshness SLA</li>
+              <li>Terraform IaC + Prometheus/Grafana observability; 3x analytical capacity at zero additional cloud spend</li>
+            </ul>
+            <div class="tl-pills">
+              <span>PySpark</span><span>Kafka</span><span>AWS</span><span>dbt</span><span>SageMaker</span><span>FAISS</span><span>Terraform</span><span>Prometheus</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">Jan 2021 — Dec 2021</div>
+            <div class="tl-company">DATEV eG</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Software Engineer · Nuremberg, Germany</h3>
+            <ul class="tl-bullets">
+              <li>Python + PySpark ELT pipelines: 100% record accuracy and 99.8% availability over 12 months for global financial client</li>
+              <li>Kinesis + Snowflake streaming replacing 4-hour batch cycles; warehouse query performance up 55%, infra costs down 20%</li>
+              <li>dbt + Great Expectations eliminated 3 classes of undetected quality failures; audit-ready financial regulatory reporting</li>
+            </ul>
+            <div class="tl-pills">
+              <span>Python</span><span>PySpark</span><span>dbt</span><span>Snowflake</span><span>Redshift</span><span>Airflow</span><span>Datadog</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">May 2020 — Dec 2020</div>
+            <div class="tl-company">Prosa IT GmbH</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Software Engineer · Nuremberg, Germany</h3>
+            <ul class="tl-bullets">
+              <li>Azure + AWS pipelines processing 100M+ monthly events; 99.8% availability and 100% schema compliance over 8 months</li>
+              <li>Self-healing Prometheus + Grafana runbooks automated 65% of incidents; MTTR improved 70%</li>
+              <li>Terraform + Helm IaC reduced environment setup from 2 days to under 3 hours</li>
+            </ul>
+            <div class="tl-pills">
+              <span>Python</span><span>PySpark</span><span>Azure Synapse</span><span>Snowflake</span><span>dbt</span><span>Prometheus</span><span>Terraform</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-reveal>
+          <div class="tl-left">
+            <div class="tl-period">Aug 2017 — Apr 2019</div>
+            <div class="tl-company">IBM</div>
+          </div>
+          <div class="tl-line"><div class="tl-dot"></div></div>
+          <div class="tl-right">
+            <h3 class="tl-role">Software Engineer · Bangalore, India</h3>
+            <ul class="tl-bullets">
+              <li>Python + Java pipelines for enterprise clients; 40% throughput improvement across 10+ integrations</li>
+              <li>SQL analytics layers (Oracle + T-SQL): query performance up 35% for 3 global client organisations</li>
+              <li>Reusable dbt-style transformation libraries cut cross-team integration defects by 35%</li>
+            </ul>
+            <div class="tl-pills">
+              <span>Python</span><span>Java</span><span>PySpark</span><span>Oracle SQL</span><span>T-SQL</span><span>Jenkins</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <p class="eyebrow-label centered" data-reveal>Get in Touch</p>
+        <h2 class="section-title centered" data-reveal data-delay="0.1">Let's build something<br /><em>extraordinary.</em></h2>
+        <p class="section-sub" data-reveal data-delay="0.2">Open to full-time roles in Data Engineering, GenAI, and Cloud Infrastructure. Based in Austin, TX — open to relocation.</p>
+
+        <div class="contact-links" data-reveal data-delay="0.3">
+          <a href="mailto:meghana.dodda50@outlook.com" class="contact-link-card" data-magnetic>
+            <span class="clc-icon">✉️</span>
+            <span class="clc-label">Email</span>
+            <span class="clc-value">meghana.dodda50@outlook.com</span>
+          </a>
+          <a href="tel:8573819821" class="contact-link-card" data-magnetic>
+            <span class="clc-icon">📞</span>
+            <span class="clc-label">Phone</span>
+            <span class="clc-value">857-381-9821</span>
+          </a>
+          <a href="https://linkedin.com/in/meghana-dodda" target="_blank" rel="noopener" class="contact-link-card" data-magnetic>
+            <span class="clc-icon">💼</span>
+            <span class="clc-label">LinkedIn</span>
+            <span class="clc-value">linkedin.com/in/meghana-dodda</span>
+          </a>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal data-delay="0.4">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name" required autocomplete="name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="e.g. Data Engineering role at Acme Corp" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <svg class="btn-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <span>✓</span> Message sent! I'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="footer-logo">Meghana Dodda</span>
+            <span class="footer-tagline">Data &amp; Software Engineer · Austin, TX · Open to Relocation</span>
+          </div>
+          <nav class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 Meghana Dodda. M.S. Data Analytics · Clark University.</span>
+          <a href="mailto:meghana.dodda50@outlook.com">meghana.dodda50@outlook.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
