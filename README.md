@@ -47,5 +47,5 @@ git push
 
 - Email: meghana.dodda50@outlook.com  
 - Phone: 857-381-9821  
-- LinkedIn: linkedin.com/in/meghana-dodda  
+- LinkedIn: https://www.linkedin.com/in/meghana-d-48835713a/ 
 - Location: Austin, TX · Open to relocation
